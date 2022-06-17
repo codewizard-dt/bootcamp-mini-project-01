@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+    padding: 1rem;
+      background-color: bisque;
+}
+header > * {
+  display: inline-block;
+}
+header nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+}
+h2 {
+  margin: 0 0 1rem;
+}
+.center {
+  text-align: center;
+}
+.splash {
+  position: relative;
+  background-image: url(../images/sailing.webp);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.splash .caption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(127, 165, 255, 0.6);
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+} 
+form {
+  display: inline-block;
+  width: max-content;
+  margin: 1rem auto;
+  background-color: rgb(230,230,230);
+  border-radius: 5px;
+  border: 2px solid rgb(210,210,210);
+  padding: 1rem;
+}
+footer {
+  text-align: center;
+  background-color: blanchedalmond;
+}
